@@ -21,7 +21,7 @@
       "skipLibCheck": true,                     
       "forceConsistentCasingInFileNames": true,
       "types": ["jest", "node"],
-      "typeRoots": ["node_modules/@types" ]
+      "typeRoots": ["node_modules/@types"]
     },
       "include": ["src/**/*.ts", "tests/**/*.ts", "src/**/*.tsx", "tests/**/*.tsx", "src/**/*.json", "typings.d.ts"],
       "exclude": ["node_modules"]

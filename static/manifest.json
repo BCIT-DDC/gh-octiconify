@@ -1,20 +1,29 @@
 {
     "manifest_version": 2,
-    "name": "Chrome Extension Starter",
-    "description": "A Chrome Extension starter kit",
+    "name": "GitHub Octiconify",
+    "description": "A web extension that applies various icon themes to the directory layout (folders & files) of a given GitHub repository.",
+    "homepage_url": "https://github.com/BCIT-DDC/gh-octiconify",
+    "short_name": "gh-octiconify",
     "version": "1.0.0",
     "browser_action": {
         "default_icon": "icon-16.png",
         "default_popup": "popup.html"
-    },
-    "background": {
-        "scripts": ["js/backgroundPage.js"],
-        "persistent": false
     },
     "icons": {
         "16": "icon-16.png",
         "48": "icon-48.png",
         "128": "icon-128.png"
     },
-    "permissions": ["tabs", "activeTab", "notifications", "http://*/", "https://*/"]
+    "background": {
+        "scripts": ["js/background.bundle.js"],
+        "persistent": false
+    },
+    "content_scripts": [{
+      "matches": ["https://*.github.com/*"],
+        "js": [
+          "js/content-script.bundle.js"
+        ]
+    }],
+    "web_accessible_resources":  [ "/assets/*" ],
+    "permissions": ["tabs", "activeTab", "notifications", "https://*.github.com/*"]
 }
