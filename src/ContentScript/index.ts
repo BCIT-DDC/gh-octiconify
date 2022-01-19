@@ -2,7 +2,7 @@ import { browser } from 'webextension-polyfill-ts';
 
 import getFile from '../Generator';
 
-console.log('Logging from content script');
+console.log('Logging from content script 3');
 
 const filesContainer = document.getElementById('files')?.parentNode;
 const fileItems = filesContainer?.querySelectorAll('.js-navigation-item');

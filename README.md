@@ -33,13 +33,13 @@ A web extension starter, built with React, Typescript, and Tailwind CSS. Build o
 Clone this repository:
 
 ```
-git clone git@github.com:BCIT-DDC/web-extension-ts-starter.git
+git clone git@github.com:BCIT-DDC/gh-octiconify.git
 ```
 
 Install npm dependencies:
 
 ```
-cd web-extension-ts-starter
+cd gh-octiconify
 npm install
 ```
 
@@ -87,8 +87,8 @@ If you would like to contribute, please have a look at our [contributing guideli
 
 This project exists thanks to all the people who contribute.
 <br/>
-<a href="https://github.com/BCIT-DDC/web-extension-ts-starter/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=bcit-ddc/web-extension-ts-starter" width="40" height="40"/>
+<a href="https://github.com/BCIT-DDC/gh-octiconify/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=bcit-ddc/gh-octiconify"height="40"/>
 </a>
 
 <!-- TESTING -->

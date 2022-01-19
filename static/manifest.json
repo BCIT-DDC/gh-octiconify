@@ -19,9 +19,10 @@
         "persistent": false
     },
     "content_scripts": [{
-      "matches": ["https://*.github.com/*"],
+        "matches": ["https://*.github.com/*"],
+        "run_at": "document_idle",
         "js": [
-          "js/content-script.bundle.js"
+            "js/content-script.bundle.js"
         ]
     }],
     "web_accessible_resources":  [ "/assets/*" ],
