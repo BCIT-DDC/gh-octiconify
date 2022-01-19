@@ -88,7 +88,7 @@ If you would like to contribute, please have a look at our [contributing guideli
 This project exists thanks to all the people who contribute.
 <br/>
 <a href="https://github.com/BCIT-DDC/gh-octiconify/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=bcit-ddc/gh-octiconify"height="40"/>
+<img src="https://contrib.rocks/image?repo=bcit-ddc/gh-octiconify" height="40"/>
 </a>
 
 <!-- TESTING -->
